@@ -1,0 +1,132 @@
+
+  /* @import "primereact/resources/themes/lara-light-indigo/theme.css"; */
+@import "primereact/resources/primereact.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+ /* *{
+ 
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+ } */
+
+.user-page{
+  text-align: center;
+  margin: 40px auto;
+}
+.user-page h1{
+  margin:  20px, auto;
+   text-align: center;
+}
+.user-page .user-list{
+background-color: #fff;
+padding: 20px;
+border:1px solid #ccc;
+border-radius: 5px;
+margin: 30px 0;
+}
+.user-page .user-list  table.btn{
+  margin:0 5px;
+
+}
+.user-page .addNewUser{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.user-view h1{
+  margin: 0;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 25px;
+  font-weight: bold;
+}
+.user-view .addNewUser .btn {
+  padding-left:  50px;
+}
+.user-view .box{
+  padding: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.user-view .center-label {
+  text-align: center;
+  justify-content: center;
+}
+
+.user-view p{
+  padding-bottom: 12px;
+  border-bottom: 1px solod #eee;
+  margin-bottom: 10px;
+}
+.user-view p span{
+  display: inline;
+  min-width: 120px;
+}
+.user-view p span:first-child{
+  color: #ccc;
+}
+.user-view p span:last-child{
+  color:black;
+  font-weight: bold;
+}
+.add-view p{
+  border-bottom: none;
+}
+.add-view p label{
+  font-size: 20px; 
+  padding: 10px;
+}
+.add-view p input{
+ margin: 5px 0;
+ font-size: 20px; 
+}
+
+
+
+
+.user-view h1{
+  margin: 0;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 25px;
+  font-weight: bold;
+}
+.user-edit .addNewUser .btn {
+  padding-left:  50px;
+}
+.user-edit .box{
+  padding: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.user-edit p{
+  padding-bottom: 12px;
+  border-bottom: 1px solod #eee;
+  margin-bottom: 10px;
+}
+.user-edit p span{
+  display: inline;
+  min-width: 120px;
+}
+.user-edit p span:first-child{
+  color: #ccc;
+}
+.user-edit p span:last-child{
+  color:black;
+  font-weight: bold;
+}
+.ct-toast-success {
+  color: #FFFFFF;
+  background: #6EC05F;
+}
+.add-btn{
+  margin: 10px;
+  padding-left: 20px;
+}
+
+.Logout-User{
+  float: right;
+}
